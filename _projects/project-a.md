@@ -1,13 +1,14 @@
 ---
-name: Project A
-tools: [C#, XML, WPF]
-image: https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: HCMGIS StoryMaps
+tools: [HCMGIS Platforms]
+image: https://hcmgis.vn/wp-content/uploads/2018/08/storymap-1-e1534906351111-1200x516.png
+description: HCMGIS StoryMaps cung cấp nền tảng biên tập và trình bày chuỗi thông tin liên quan đến vị trí kết hợp thông tin mô tả, thông tin đa phương tiện và bản đồ.
+
 ---
 
-# Project A
+# HCMGIS StoryMaps
 
-Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
+HCMGIS StoryMaps cung cấp nền tảng biên tập và trình bày chuỗi thông tin liên quan đến vị trí kết hợp thông tin mô tả, thông tin đa phương tiện và bản đồ.
 
 ![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
 
