@@ -1,11 +1,10 @@
 # Site settings
-title: portfolYOU
+title: HCMGIS Profile
 description: >- # this means to ignore newlines until "baseurl:"
-  Always code as if the guy who ends up maintaining your code
-  will be a violent psychopath who knows where you live.
-baseurl: "/portfolYOU"  # the subpath of your site, e.g. /blog
+  HCMGIS Profile.
+baseurl: "/profile"  # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-repository: YoussefRaafatNasry/portfolYOU
+repository: hcmgis/hcmgis.github.io
 
 
 # Build settings
@@ -17,12 +16,12 @@ markdown: kramdown
 # Author Info
 author:
   name     : John Doe
-  image    : https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg
-  email    : username@xyz.com
-  github   : username
-  twitter  : username
-  linkedin : username
-  facebook : username
+  image    : https://drive.google.com/file/d/1saCHGs40qmdrvxDTjLC9oX8PN_ahtgNS/view?usp=sharing
+  email    : hcmgis.dost@gmail.com
+  github   : hcmgis
+  twitter  : hcmgis
+  linkedin : hcmgis
+  facebook : hcmgis
 
 
 # Collections
