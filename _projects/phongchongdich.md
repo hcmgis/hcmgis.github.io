@@ -1,6 +1,6 @@
 ---
-name: HCMGIS StoryMaps
-tools: [HCMGIS Platforms]
+name: Hệ thống quản lý bệnh truyền nhiễm
+tools: [Ứng dụng GIS Sở ngành, Quận huyện]
 image: https://hcmgis.vn/wp-content/uploads/2017/12/pcd.png
 description: Hệ thống quản lý bệnh truyền nhiễm là hệ thống quản lý thông tin ca bệnh thống nhất, liên thông trong hệ thống y tế dự phòng từ cấp tỉnh đến phường xã, hỗ trợ xác định ổ dịch, triển khai các biện pháp can thiệp, ứng phó kịp thời và hiệu quả, hỗ trợ phân tích và dự báo tình hình dịch bệnh trên bản đồ trực tuyến theo thời gian thực, góp phần nâng cao chất lượng và hiệu quả công tác bảo vệ và chăm sóc sức khỏe cộng đồng.
 
