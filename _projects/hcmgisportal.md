@@ -14,7 +14,7 @@ Cổng thông tin địa lý HCMGIS Portal cung cấp nền tảng tích hợp v
 
 # Các tính năng chính:
 
-![](https://hcmgis.vn/wp-content/uploads/2017/12/portal_tinhnang.jpgg)
+![](https://hcmgis.vn/wp-content/uploads/2017/12/portal_tinhnang.jpg)
 
 <p class="text-center">
 {% include button.html link="https://portal.hcmgis.vn/" text="HCMGIS Portal" %}
