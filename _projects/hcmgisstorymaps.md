@@ -10,6 +10,8 @@ description: HCMGIS StoryMaps cung cấp nền tảng biên tập và trình bà
 
 HCMGIS StoryMaps cung cấp nền tảng biên tập và trình bày chuỗi thông tin liên quan đến vị trí kết hợp thông tin mô tả, thông tin đa phương tiện và bản đồ.
 
+![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
+
 ![](https://hcmgis.vn/wp-content/uploads/2018/08/storymap-1-e1534906351111-1200x516.png)
 
 # Các tính năng chính:
