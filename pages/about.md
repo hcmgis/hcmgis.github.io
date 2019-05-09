@@ -6,9 +6,7 @@ weight: 3
 ---
 
 # **About Me**
-
-Hi I am **{{ site.author.name }}**,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Trung tâm Ứng dụng Hệ thống thông tin Địa lý Tp.HCM (**{{ site.author.name }}**) chuyên tư vấn, xây dựng, đào tạo, chuyển giao các giải pháp và ứng dụng GIS chuyên nghiệp trong các lĩnh vực quản lý đô thị, tài nguyên – môi trường, kinh tế – văn hóa – xã hội.
 
 <div class="row">
 {% include skills.html title="Programming Skills" source=site.data.programming-skills %}
