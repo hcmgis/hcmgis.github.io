@@ -5,5 +5,5 @@
 </div>
 
 <div align="center">
-    <sub><sup>© 2019 HCMGIS, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
+    <sub><sup>© 2019 HCMGIS</sup></sub>
 </div>
