@@ -22,7 +22,7 @@ https://hcmgis.vn/wp-content/uploads/2018/08/storymap_ungdung.jpg
 # Ứng dụng HCMGIS StoryMaps trên thiết bị di động:
 https://hcmgis.vn/wp-content/uploads/2018/08/storymap_ungdung2.jpg
 
-# Tải ứng dụng trên điện thoại tại đây:
+# Tải ứng dụng trên điện thoại:
 
 <p class="text-center">
 {% include button.html link="https://play.google.com/store/apps/details?id=com.hcmgis" text="Adroid App" %}
