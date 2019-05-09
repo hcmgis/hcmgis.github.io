@@ -14,13 +14,13 @@ HCMGIS StoryMaps cung cấp nền tảng biên tập và trình bày chuỗi th�
 
 # Các tính năng chính:
 
-![]https://hcmgis.vn/wp-content/uploads/2018/08/storymap_didong-1024x327.jpg
+![].(https://hcmgis.vn/wp-content/uploads/2018/08/storymap_didong-1024x327.jpg)
 
 # Ứng dụng của HCMGIS StoryMaps:
-https://hcmgis.vn/wp-content/uploads/2018/08/storymap_ungdung.jpg
+![].(https://hcmgis.vn/wp-content/uploads/2018/08/storymap_ungdung.jpg)
 
 # Ứng dụng HCMGIS StoryMaps trên thiết bị di động:
-https://hcmgis.vn/wp-content/uploads/2018/08/storymap_ungdung2.jpg
+![].(https://hcmgis.vn/wp-content/uploads/2018/08/storymap_ungdung2.jpg)
 
 # Tải ứng dụng trên điện thoại:
 
