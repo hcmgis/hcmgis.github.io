@@ -9,7 +9,7 @@ description: Hệ thống quản lý bệnh truyền nhiễm là hệ thống qu
 # Hệ thống quản lý bệnh truyền nhiễm
 
 Hệ thống quản lý bệnh truyền nhiễm là hệ thống quản lý thông tin ca bệnh thống nhất, liên thông trong hệ thống y tế dự phòng từ cấp tỉnh đến phường xã, hỗ trợ xác định ổ dịch, triển khai các biện pháp can thiệp, ứng phó kịp thời và hiệu quả, hỗ trợ phân tích và dự báo tình hình dịch bệnh trên bản đồ trực tuyến theo thời gian thực, góp phần nâng cao chất lượng và hiệu quả công tác bảo vệ và chăm sóc sức khỏe cộng đồng
-![](https://hcmgis.vn/wp-content/uploads/2018/08/storymap-1-e1534906351111-1200x516.png)
+![](https://hcmgis.vn/wp-content/uploads/2017/12/pcd.png)
 
 # Các tính năng chính:
 
