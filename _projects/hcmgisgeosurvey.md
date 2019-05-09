@@ -29,5 +29,5 @@ HCMGIS GeoSurvey cung cấp nền tảng thu thập dữ liệu thực địa, h
 
 
 <p class="text-center">
-{% include button.html link="https://geosurvey.hcmgis.vn/" text="HCMGIS StoryMaps" %}
+{% include button.html link="https://geosurvey.hcmgis.vn/" text="HCMGIS GeoSurvey" %}
 </p>
