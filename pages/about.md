@@ -6,7 +6,7 @@ weight: 3
 ---
 
 # **About HCMGIS**
-Welcome to **{{ site.author.name }}** Blog :wave:<br>
+### Welcome to **{{ site.author.name }}** Blog :wave:<br>
 Center for Applied GIS of Ho Chi Minh City (HCMGIS) focuses on consulting, developing, training and transferring GIS solutions and applications in urban management, natural resources and environment, and economic-cultural-social development.
 
 <!-- <div class="row">
