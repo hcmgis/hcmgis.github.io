@@ -1,53 +1,85 @@
-# Site settings
-title: HCMGIS Profile
-description: >- # this means to ignore newlines until "baseurl:"
-  HCMGIS Profile.
-#baseurl: "/profile"  # the subpath of your site, e.g. /blog
-url: "https://hcmgis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: hcmgis/hcmgis.github.io
+### Site Settings ###
+title               : HCMGIS Profile
+description         : >-
+                    HCMGIS - GIS for the City, GIS for the Commynity.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : hcmgis/hcmgis.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
 
 
-# Build settings
-markdown: kramdown
-# plugins:
-# - jekyll-feed
+### Plugins ###
+plugins:
+  - jemoji
+  - jekyll-admin
 
 
-# Author Info
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
 author:
-  name     : HCMGIS
-  image    : https://hcmgis.vn/wp-content/uploads/2017/12/screencapture-maps-hcmgis-vn-maps-1514888464395-e1534821791263-1200x384.png
-  email    : hcmgis.dost@gmail.com
-  github   : hcmgis
-  twitter  : hcmgis
-  linkedin : hcmgis
-  facebook : hcmgis
+  name              : HCMGIS
+# image             : https://scontent.fsgn5-3.fna.fbcdn.net/v/t1.0-9/81728565_2688082604562354_5538931030561390592_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=nxjywMA_hBgAX92gLKL&_nc_ht=scontent.fsgn5-3.fna&oh=0de4b17711bd23cab13a44774a15cb46&oe=5ED1FC7B
+  image             : /assets/images/hcmgis.png
+#  behance           : thangquachdong
+# dribbble          : your_username
+  email             : hcmgis.dost@gmail.com
+  facebook          : hcmgis
+  github            : hcmgis
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : hcmgis
+#  medium            : thangqd
+# soundcloud        : your_username
+# spotify           : your_username
+#  stackoverflow     : thangqd
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : hcmgis
+# vimeo             : your_username
+#  youtube           : thangqd
 
 
-# Collections
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
+  #elements:                                             # For Documentation Only
+    #output: true                                        # For Documentation Only
 
 
-# Default values for collections
+### Disqus ###
+disqus: hcmgis                         # Your website Shortname on disqus
+
+
+### Defaults for collections ###
 defaults:
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true                                   # Set to true to enable disqus comments
 
-
-# Posts default Permalink
-permalink: articles/:title
-
-
-# Exclude from processing.
+### Exclude from processing ###
 exclude:
-- README.md
-- CONTRIBUTING.md
-- LICENSE
-- Gemfile
-- Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+
+theme: jekyll-theme-time-machine

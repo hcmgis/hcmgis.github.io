@@ -6,12 +6,15 @@ weight: 3
 ---
 
 # **About Me**
-Trung tâm Ứng dụng Hệ thống thông tin Địa lý Tp.HCM (**{{ site.author.name }}**) chuyên tư vấn, xây dựng, đào tạo, chuyển giao các giải pháp và ứng dụng GIS chuyên nghiệp trong các lĩnh vực quản lý đô thị, tài nguyên – môi trường, kinh tế – văn hóa – xã hội.
-**{{ site.author.image }}**
-<!---<div class="row">
-{% include skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+
+Welcome to **{{ site.author.name }}** Blog wave:<br>!
+Center for Applied GIS of Ho Chi Minh City (HCMGIS) focuses on consulting, developing, training and transferring GIS solutions and applications in urban management, natural resources and environment, and economic-cultural-social development.
+
 <div class="row">
-{% include timeline.html %}
-</div> -->
+<!-- {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %} -->
+<!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->
+</div>
+
+<div class="row">
+{% include about/timeline.html %}
+</div>
