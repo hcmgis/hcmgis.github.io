@@ -63,8 +63,8 @@ hcmgis_medialaxis(layer, field, density,output,status_callback = None)
 *because it is written for HCMGIS Plugin with GUI interaction and also for running in Python console*  
 
 ```python
-input = "D:\\data\\road.shp" # your polygon input layer
-output = "D:\\data\\skeleton.shp" # your skeleton output in .sqlite, .shp, .geojson, .gpkg or kml
+input = "D:\\osm\\road.shp" # your polygon input layer
+output = "D:\\osm\\skeleton.shp" # your skeleton output in .sqlite, .shp, .geojson, .gpkg or kml
 hcmgis_medialaxis(input, 'OBJECTID', 1,output,status_callback = None) 
 # hcmgis_medialaxis(layer, field, density,output,status_callback = None)
 # layer: input layer
@@ -81,8 +81,8 @@ hcmgis_medialaxis(input, 'OBJECTID', 1,output,status_callback = None)
 hcmgis_centerline(layer,density,chksurround,distance,output,status_callback = None)
 ```
 ```python
-input = "D:\\data\\block.shp" # your polygon input
-output = "D:\\data\\centerline.geojson" # your centerline output in .sqlite, .shp, .geojson, .gpkg or kml
+input = "D:\\osm\\block.shp" # your polygon input
+output = "D:\\osm\\centerline.geojson" # your centerline output in .sqlite, .shp, .geojson, .gpkg or kml
 hcmgis_centerline(input, 1, True, 2,output,status_callback = None)
 # hcmgis_centerline(layer,density,chksurround,distance,output,status_callback = None)
 # density (float value): densify geometries with given an interval (in this case is 1 meter). 
@@ -98,10 +98,10 @@ hcmgis_centerline(input, 1, True, 2,output,status_callback = None)
 hcmgis_closest_farthest(layer,field,closest,farthest,status_callback = None)
 ```
 ```python
-input = "D:\\data\\points.shp"  # your point input
-closest = "D:\\data\\closest.shp" # your closest pair of point output in polyline  
+input = "D:\\osm\\points.shp"  # your point input
+closest = "D:\\osm\\closest.shp" # your closest pair of point output in polyline  
 #connecting closest, second closest,.. pairs of points  with distance attribute.
-farthest = "D:\\data\\farthest.shp" # your farthest pair of point output in polyline   
+farthest = "D:\\osm\\farthest.shp" # your farthest pair of point output in polyline   
 #connecting farthest, second farthest,.. pairs of points  with distance attribute.
 hcmgis_closest_farthest(input,'fid', closest, farthest, status_callback = None)
 # hcmgis_closest_farthest(layer,field,closest,farthest,status_callback = None): 
@@ -116,8 +116,8 @@ hcmgis_closest_farthest(input,'fid', closest, farthest, status_callback = None)
 hcmgis_lec(layer,field,output,status_callback = None)
 ```
 ```python
-input = "D:\\data\\points.shp" # your point input
-output = "D:\\data\\lec.shp"  # your Largest Empty Circle in Polygon
+input = "D:\\osm\\points.shp" # your point input
+output = "D:\\osm\\lec.shp"  # your Largest Empty Circle in Polygon
 hcmgis_lec(input,'fid', output, status_callback = None)
 # hcmgis_lec(layer,field,output,status_callback = None): 
 # "field": the unique field of input layer, in this case is 'fid'
