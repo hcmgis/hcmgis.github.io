@@ -109,6 +109,7 @@ hcmgis_closest_farthest(input,'fid', closest, farthest, status_callback = None)
 ```
 ![centerline](/assets/images/posts/2020/HCMGIS/closest_farthest.png)
 
+
 ***
 ### Largest Empty Circle
 ```python

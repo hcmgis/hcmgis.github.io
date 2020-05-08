@@ -47,4 +47,4 @@ hcmgis_lec(layer,field,output,status_callback = None)
 ![Standalone PyQGIS](/assets/images/posts/2020/HCMGIS/standalonepyqgis.png)
 
 ***
-#### Reference:  [Call HCMGIS Plugin QGIS Python Console](https://hcmgis.github.io/blog/call-hcmgis-library-qgis-python-console)
+#### Reference:  [Call HCMGIS Plugin QGIS Python Console](https://thangqd.github.io/blog/call-hcmgis-library-qgis-python-console)
