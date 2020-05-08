@@ -49,7 +49,7 @@ SetEnv PYTHONHOME "C:\OSGeo4W64\apps\Python37"
 SetEnv PATH "C:\OSGeo4W64\bin;C:\OSGeo4W64\apps\qgis\bin;C:\OSGeo4W64\apps\Qt5\bin;C:\WINDOWS\system32;C:\WINDOWS;  C:\WINDOWS\System32\Wbem"  
 SetEnv QGIS_PREFIX_PATH "C:\OSGeo4W64\apps\qgis"  
 SetEnv QT_PLUGIN_PATH "C:\OSGeo4W64\apps\qgis\qtplugins;C:\OSGeo4W64\apps\Qt5\plugins"`  
-##### - Restart the Apache web server from the XAMPP Control Panel 
+##### - Restart   Apache web server from the XAMPP Control Panel 
 ![Apache Restart](/assets/images/posts/2020/QGISServer/startapache.png)
 ##### -	Open Web browser to testing a GetCapabilities request to QGIS Server:
 `http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities`  
@@ -59,11 +59,10 @@ SetEnv QT_PLUGIN_PATH "C:\OSGeo4W64\apps\qgis\qtplugins;C:\OSGeo4W64\apps\Qt5\pl
 #### - Open world.qgs or (world3.qgs) and Save as Project to QGIS bin folder `(C:\OSGeo4W64\apps\qgis\bin)`  
 ![QGIS Project](/assets/images/posts/2020/QGISServer/qgisproject.png)  
 #### -	There are 4 layers in the world.qgs project:
-    o airports
-    o places
-    o countries
-    o countries_shapeburst  
-    
+###### airports  
+###### places  
+###### countries  
+###### countries_shapeburst  
 #### - Configure WMS, WMTS and WFS: menu Project --> Properties --> QGIS Server:
 ![Configure QGIS Server](/assets/images/posts/2020/QGISServer/configureqgisserver.png)  
 
@@ -110,11 +109,4 @@ SetEnv QT_PLUGIN_PATH "C:\OSGeo4W64\apps\qgis\qtplugins;C:\OSGeo4W64\apps\Qt5\pl
 url = 'http://localhost/cgi-bin/qgis_mapserv.fcgi.exe?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=countries&map=world.qgs'
 qgis.utils.iface.addVectorLayer(url,'qgisserverwfs','WFS')  
 ```  
-![Add WFS in QGIS Python Console](/assets/images/posts/2020/QGISServer/wfsqgis.png)  
-
-
-
-
-
-
- 
+![Add WFS in QGIS Python Console](/assets/images/posts/2020/QGISServer/wfsqgis.png)
